@@ -1,5 +1,6 @@
-package com.meaWallet.reactiveProject.config;
+package com.meaWallet.reactiveProject.listener;
 
+import com.meaWallet.reactiveProject.config.ConfigureRabbitMq;
 import org.apache.logging.log4j.LogManager;
 import org.slf4j.Logger;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

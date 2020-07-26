@@ -1,5 +1,6 @@
 package com.meaWallet.reactiveProject.config;
 
+import com.meaWallet.reactiveProject.listener.CardMessageListener;
 import com.rabbitmq.client.ConnectionFactory;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
